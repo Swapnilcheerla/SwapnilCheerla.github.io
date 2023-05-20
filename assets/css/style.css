@@ -331,8 +331,10 @@ h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/bg.jpeg") top center;
   background-size: cover;
+
+
   padding: 0 15px;
 }
 
@@ -342,6 +344,8 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+
+
 }
 
 #hero h2 {
@@ -1127,6 +1131,18 @@ section {
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
   border-color: #d43076;
+}
+
+
+
+#viewrtesume {
+  background: #d43076;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+
 }
 
 .contact .php-email-form button[type=submit] {
